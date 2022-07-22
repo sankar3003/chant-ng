@@ -93,11 +93,44 @@
     cursor: pointer;
   }
   h1,h2,h3,h4,h5,h6{
-    font-family: 'Palatino Linotype';
+    font-family: 'exo';
   }
   p{
     font-family: 'exo'; 
     margin: 0 !important;
   }
 
+  li{
+    text-decoration: none;
+  }
   /* global css  */
+
+  /* top header */
+
+  header.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-icon {
+  padding: 0px 88px 0 0;
+}
+ul.list {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  /* text-decoration: none; */
+  list-style: none;
+  padding: 0 20px 0 0;
+}
+/* header  ends   here  */
