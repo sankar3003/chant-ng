@@ -166,9 +166,9 @@ li>a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding: 10px;
-
 }
 
 
@@ -176,6 +176,7 @@ li>a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo-icon {
@@ -187,6 +188,7 @@ ul.list {
   flex-direction: row;
   align-items: center;
   padding: 10px 0 0 0;
+  flex-wrap: wrap;
 }
 
 li {
@@ -362,3 +364,51 @@ span.b-search {
 
 }
 /* main section ends heerr  */
+
+
+/* courses css starts here  */
+
+.heading-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 90px;
+  flex-wrap: wrap;
+}
+
+
+.heading-section  h3 {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2E2C29;
+}
+.heading-section>div {
+  font-family: 'Exo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.global-search {
+  margin: 0 auto;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 2px 3px 15px rgb(0 0 0 / 5%);
+  border-radius: 10px;
+  width: 676px;
+  height: 110px;
+}
+/* courses css starts here  */
+
+
+
