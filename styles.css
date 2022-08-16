@@ -124,7 +124,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "exo", sans-serif;
+  font-family: "Exo", sans-serif ;
 
 }
 
@@ -135,17 +135,10 @@ svg {
   cursor: pointer;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'exo';
-}
+
 
 p {
-  font-family: 'exo';
+
   margin: 0 !important;
 }
 
@@ -215,7 +208,7 @@ a:hover {
   background: #FFFFFF;
   box-shadow: inset 0px 0px 7px 2px rgb(0 0 0 / 6%);
   border-radius: 5px;
-  padding: 6px 10px;
+  padding: 6px 45px 6px 10px;
   width: 300px;
   height: 45px;
 }
@@ -281,7 +274,7 @@ ul>li:hover {
 }
 
 .h-sec h3{
-  font-family: 'Exo';
+  
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -290,7 +283,7 @@ ul>li:hover {
 }
 
 .h-sec p{
-  font-family: 'Exo';
+
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -345,13 +338,15 @@ span.b-search {
 
 .cources {
   display: flex;
-  flex-direction: row;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 705px;
-  width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 800px !important;
+    bottom: 148px;
+    flex-wrap: wrap;
+    width: 100%;
+
 }
 
 .c-items {
@@ -361,7 +356,7 @@ span.b-search {
   height: 288px;
 
   margin: 30px;
-
+text-align: center;
 }
 /* main section ends heerr  */
 
@@ -387,7 +382,7 @@ span.b-search {
   color: #2E2C29;
 }
 .heading-section>div {
-  font-family: 'Exo';
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -408,7 +403,91 @@ span.b-search {
   width: 676px;
   height: 110px;
 }
+
+.svg-sec {
+  margin: 50px 0;
+}
+
+.c-items h4 {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+/* identical to box height */
+  color: #2E2C29;
+}
+
+.c-items p {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+/* identical to box height */
+  text-align: center;
+  color: #2E2C29;
+  margin: 20px 0 50px 0;
+}
+
+
+.svg-sec svg:hover path {
+  fill:#FFBE06;
+}
+
+.categories {
+  margin-top: 200px;
+}
+
+.titlemenu-sec {
+  text-align: center;
+}
+
+.titlemenu-sec h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+/* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFBE06;
+}
+
+.titlemenu-sec p {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+/* identical to box height */
+  text-align: center;
+  color: #2E2C29;
+}
+.titlemenu-sec .t-content{
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #666461;
+}
 /* courses css starts here  */
 
 
+/* tab starts here  */
+.tab-elemes {
+  width: 820px !important;
+  text-align: center;
+  align-items: center;
+  /* max-width: 100%; */
+  margin: 60px auto auto;
+}
 
+
+
+/* tb ends here  */
